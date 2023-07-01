@@ -10,5 +10,7 @@ def print_pattern(a):
 
 
 num = int(input('Input number : '))
-
-print_pattern(num)
+if num == 0:
+    print('Operation Invalid')
+else:
+    print_pattern(num)
